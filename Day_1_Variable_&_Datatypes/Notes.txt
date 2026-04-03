@@ -1,0 +1,238 @@
+📘 1. Variables
+🔹 What is a Variable?
+
+A variable is a named container used to store data in a program. Its value can change during program execution.
+
+👉 Think of it like a labeled box where you store information.
+
+Example:
+
+x = 10
+name = "Ali"
+x stores an integer value 10
+name stores a string "Ali"
+
+🔹 Rules for Naming Variables:
+
+Must start with a letter or underscore _
+Cannot start with a number
+Can contain letters, numbers, and underscores
+Cannot use reserved keywords (like if, for, while)
+
+Valid:
+
+age = 20
+_user = "Ahmed"
+marks1 = 85
+
+Invalid:
+
+1name = "Ali"   ❌
+for = 10        ❌
+
+🔹 Variable Declaration & Initialization:
+
+Declaration: Creating a variable
+Initialization: Assigning a value
+
+x = 5   # Declared + Initialized
+
+🔹 Dynamic Typing
+
+In languages like Python, you don’t need to specify the type explicitly.
+
+x = 10       # integer
+x = "Hello"  # now string
+
+🔹 Constants
+
+A constant is a value that should not change.
+
+PI = 3.14159
+
+(Usually written in uppercase by convention)
+
+📘 2. Data Types
+
+🔹 What is a Data Type?
+
+A data type defines the type of data a variable can store.
+
+📊 Types of Data Types
+
+1. Numeric Data Types
+🔸 Integer (int)
+
+Whole numbers (positive or negative)
+
+x = 10
+y = -5
+
+🔸 Float (float)
+
+    Decimal numbers
+
+    price = 99.99
+    temperature = -2.5
+
+🔸 Complex (complex)
+
+Numbers with real and imaginary parts
+
+z = 3 + 4j
+2. Text Data Type
+
+🔸 String (str)
+
+Sequence of characters enclosed in quotes
+
+name = "Ali"
+message = 'Hello World'
+
+🔹 String Operations:
+
+a = "Hello"
+b = "World"
+print(a + " " + b)  # Hello World
+
+3. Boolean Data Type
+
+🔸 Boolean (bool)
+
+Represents True or False
+
+is_active = True
+is_logged_in = False
+Example:
+x = 10
+print(x > 5)  # True
+
+4. Sequence Data Types:
+
+🔸 List (list)
+
+Ordered, changeable collection
+
+numbers = [1, 2, 3, 4]
+names = ["Ali", "Ahmed", "Sara"]
+
+✔ Can modify:
+
+numbers[0] = 10
+
+🔸 Tuple (tuple)
+
+Ordered, unchangeable
+
+data = (1, 2, 3)
+
+❌ Cannot modify:
+
+data[0] = 5  # Error
+
+🔸 Range (range)
+
+Sequence of numbers
+
+r = range(1, 5)  # 1, 2, 3, 4
+5. Set Data Type
+
+🔸 Set (set)
+
+Unordered collection of unique elements
+
+s = {1, 2, 3, 3}
+print(s)  # {1, 2, 3}
+
+✔ No duplicates allowed
+
+6. Mapping Data Type
+
+🔸 Dictionary (dict)
+
+Stores data in key-value pairs
+
+student = {
+    "name": "Ali",
+    "age": 20,
+    "marks": 85
+}
+
+Access:
+
+print(student["name"])  # Ali
+
+📘 3. Type Checking & Type Conversion
+🔹 Type Checking
+x = 10
+print(type(x))  # <class 'int'>
+🔹 Type Conversion (Casting)
+Convert one type to another:
+x = int("10")     # string → int
+y = float(5)      # int → float
+z = str(100)      # int → string
+
+
+
+📘 4. Mutable vs Immutable Data Types:
+
+🔹 Mutable (Can Change)
+List
+Dictionary
+Set
+lst = [1, 2, 3]
+lst[0] = 10
+
+🔹 Immutable (Cannot Change)
+int
+float
+string
+tuple
+x = 10
+x = 20  # new object created
+
+📘 5. Memory Concept
+Variables store references to values in memory
+Python automatically manages memory
+a = 10
+b = a
+
+Both refer to the same value initially.
+
+📘 6. Operators with Data Types
+🔹 Arithmetic Operators
++  -  *  /  %  **
+
+Example:
+
+x = 5 + 3   # 8
+🔹 Comparison Operators
+==  !=  >  <  >=  <=
+🔹 Logical Operators
+and  or  not
+📘 7. Type Errors & Debugging
+🔹 Example Error:
+x = "10" + 5  # ❌ Error
+
+✔ Fix:
+
+x = int("10") + 5
+📘 8. Best Practices
+
+✔ Use meaningful variable names
+✔ Keep consistent naming style
+✔ Avoid unnecessary type conversions
+✔ Use comments for clarity
+
+
+🎯 Final Example (Combined):
+
+
+name = "Ali"
+age = 20
+marks = [85, 90, 88]
+is_passed = True
+
+average = sum(marks) / len(marks)
+
+print(name, age, average, is_passed)

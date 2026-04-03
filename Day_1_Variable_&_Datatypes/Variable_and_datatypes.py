@@ -14,3 +14,15 @@ print(college)
 print(phone)
 
 #in above [name,age,college and phone are variables]
+
+# Data Types:
+# IN python we have different data types but basic and important are discussed here.
+# We will deeply explain it further 
+
+# Integer:
+# In integer data type we store number data 
+age = 23
+
+digits =0123456789
+
+marks=98

@@ -40,7 +40,6 @@ age = 23
 print(age)      # print 23
 
 # Update value of age by 5
-# This is also called string catenation.
 # simply (+) operator to add or update a variable value
 
 updated_age = age + 5
@@ -50,7 +49,7 @@ print(updated_age)      # print 28
 
 # Practice problem 4:
 # Multiple assiagnment.
-# In python we can also value to varaible at bulk .
+# Multiple assignment at single line.
 
 a , b , c = 10 , 20 , 30 
 print(a,b,c)    # print 10 , 20 , 30 
@@ -70,7 +69,6 @@ data = 100
 print (data)
 print(type(data)) # integer type
 
-# Also called type conversion
 # Both output will be same but having different data types
 
 data = str(data)

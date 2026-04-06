@@ -50,5 +50,6 @@ print(type(number))
 hospital_name = input ("Enter any hospital name to check its lenght:  ")
 
 # We use len() function to find lenght of any string
+# Its also count white spaces
 print(hospital_name)
 print(len(hospital_name))

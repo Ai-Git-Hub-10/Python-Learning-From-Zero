@@ -1,3 +1,6 @@
+# Its is a practice file on varaibles solve different problems to understand the concepts practically.
+# This practice session cover almost every concept on variable.
+
 # Creating Smart profile builder 
 
 # Student Info
